@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    color: #FBF4F4;
+    background-color:hsla(220,1%,41%,1.00);
+}
+.wraper {
+    padding:50px;
+ background:url("../imagini/inovatie.jpg") repeat-x;       
+}
+.header {
+    height: 242px;
+    background-color: rgba(54,5,244,0.10);
+    margin: 0 0 10px 0;
+    color: #F9F3F3;
+}
+.header p{
+   display: block;
+    left: 1000px;
+    top: 250px;
+    position: absolute;
+    font-style: italic;
+    font-size: 18px; 
+}
+.titlul{
+    display: block;
+    left: 200px;
+    top: 175px;
+    position: absolute;
+    font-style: italic;
+    font-size: 40px; 
+}
+#contactFrm{
+    float: right;
+    font-size: 20px;
+    background: rgba(39,58,114,0.50);
+    color: #FBFBFB;
+    padding: 5px 25px 5px 25px;
+    margin: 200px 0 15px 0;
+    width: 285;
+}
+#nav ul li{
+    display: inline-block;
+    position: relative;
+    font-size: 25px;
+    font-style: italic;
+    word-spacing: 5px;
+    line-height: 50px;   
+}
+#nav{
+    background-color: rgba(179,135,244,0.21);
+     margin-bottom: 50px;
+    margin-top: 300px;
+}
+#nav ul li a:link {
+    background-color: rgba(179,135,244,0.21);
+   color:#F9F8F8;
+    transition: 1s  all ease;
+    
+}
+
+/* visited link */
+#nav ul li a:visited {
+  color:#C4B7B8;
+}
+
+/* mouse over link */
+#nav ul li a:hover {
+  color:#F9F8F8;
+   background-color: hsla(220,94%,34%,0.74);
+    transition: 0,7s  all ease;
+
+}
+
+/* selected link */
+#nav ul li a:active {
+  color:#F8F3F3;
+}
+.main {
+    width: 1000px;
+    background-color: rgba(39,58,114,0.50);
+    margin: 0 0 10px 0;
+    float: left;
+    color: #FAF5F5;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    text-align: left;
+}
+
+article{
+    width: 430px;
+    height: 500px;
+    overflow:hidden;
+    background: rgba(39,58,114,0.50);
+    margin: 15px;
+    padding: 10px;
+    float: left;
+
+}
+#article_tree{
+    color:#F9F8F8;
+    padding:10px;
+    width: 915px;
+    height: 500px;
+    margin: 20px;
+}
+#article_four{
+    color:#F9F8F8;
+    padding:10px;
+    width: 915px;
+    height: 500px;
+    margin: 20px;
+}
+
+#first_img{
+    width: 275px;
+    height: 183px;
+    text-align: center;
+    position: relative;
+    left: 70px;
+}
+
+
+.wraper .main #article_header {
+    width: 430px;
+    background: rgba(39,58,114,0.50);
+    display: block;
+    margin: 15px;
+    padding: 15px;
+    float: left;
+}
+
+
+
+
+
+.sidebar {
+    height: 300px;
+    width: 285;
+    background-color: rgba(39,58,114,0.50);
+    margin: 0 0 10px 0;
+    float: right;
+    left: 420px;
+   
+}
+section{
+    margin: 15;
+    padding: 15px;
+}
+
+iframe{
+    background-color: rgba(39,58,114,0.50);
+    margin-left: 15px; 
+}
+
+
+.figure_img{
+    background: url("../imagini/images (7).jpg") no-repeat;
+    height: 300px;
+    width: 285px;
+}
+.figure{
+    height: 300px;
+    width: 285px;
+    
+}
+
+.footer {
+    height: 40px;
+    background-color: rgba(0,0,0,0.40);
+    clear: both;
+    text-align: left;
+}
+
+
+
+
+#article_tree{
+    transition: all 500ms ease-out 0s;
+    -webkit-transition: all 500ms ease-out 0s;
+    -o-transition: all 500ms ease-out 0s;
+    text-align: center;}
+
+#article_tree:hover {
+  color:#F9F8F8;
+    background-color:#4B4647azure;
+    padding:10px;
+    width: 900px;
+    height: 500px;
+    margin: 20px;
+    transition: 1s  all ease-out;
+    
+}
+  
+h3 {
+    border-top: 2px dashed #11057B;
+}
+span{
+    text-decoration: underline;
+    color: #1D03FD;
+
+}
+.main #article_tree .text {
+    text-align: left;
+}
+#footer{
+    padding: 5px;
+    clear: both;
+    background: rgba(179,135,244,0.21);
+    text-align: center
+}
+
+

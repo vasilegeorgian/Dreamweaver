@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+body{
+    color: #FBF4F4;
+    background-color:hsla(220,1%,41%,1.00);
+}
+
+#wraper {
+    padding:50px;
+    background:url("../imagini/inovatie.jpg") repeat-x;         
+}
+
+
+/*start header*/
+#header {
+    height: 242px;
+    background-color: rgba(54,5,244,0.10);
+    margin: 0 0 10px 0;
+    color: #F9F3F3;
+}
+#header p{
+   display: block;
+    left: 1000px;
+    top: 250px;
+    position: absolute;
+    font-style: italic;
+    font-size: 18px; 
+}
+.titlul{
+    display: block;
+    left: 200px;
+    top: 175px;
+    position: absolute;
+    font-style: italic;
+    font-size: 40px; 
+}#contactFrm{
+    float: right;
+    font-size: 20px;
+    background: rgba(39,58,114,0.50);
+    color: #FBFBFB;
+    padding: 5px 25px 5px 25px;
+    margin: 200px 0 15px 0;
+    width: 285;
+}
+#nav ul li{
+    display: inline-block;
+    position: relative;
+    font-size: 25px;
+    font-style: italic;
+    word-spacing: 5px;
+    line-height: 50px;
+
+    
+}
+
+#nav{
+    background-color: rgba(179,135,244,0.21);
+     margin-bottom: 50px;
+    margin-top: 300px;
+}
+#nav ul li a:link {
+    background-color: rgba(179,135,244,0.21);
+
+  color:#F9F8F8;
+    transition: 1s  all ease;
+    
+}
+
+/* visited link */
+#nav ul li a:visited {
+  color:#C4B7B8;
+}
+
+/* mouse over link */
+#nav ul li a:hover {
+  color:#F9F8F8;
+   background-color: hsla(220,94%,34%,0.74);
+    transition: 0,7s  all ease;
+
+}
+
+/* selected link */
+#nav ul li a:active {
+  color:#F8F3F3;
+}
+
+
+/*finish header*/
+/*start main*/
+
+#main {
+    width: 900px;
+    margin: 15px;
+    padding: 15px;
+    background-color: rgba(39,58,114,0.50);
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    text-align: left;
+    border: 3px double #32A5F4;
+    float: left
+}
+
+ table, tr, th, td {
+    width: 350px;
+    border: 1px solid #000000;
+     padding: 3px;
+}
+
+
+
+
+
+
+
+#sidebar{
+    width: 400px;
+    float: right;
+    background-color: rgba(39,58,114,0.50);
+    text-align: left;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+#sidebar p {
+    padding:15px ;
+}
+
+#footer{
+    padding: 5px;
+    clear: both;
+    background: rgba(179,135,244,0.21);
+    text-align: center
+}
+
+
+
+
+
+
+
+
+
